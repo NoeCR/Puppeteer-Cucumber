@@ -1,0 +1,97 @@
+[
+  {
+    "description": "  As a user I can login to application",
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "features/login.feature",
+    "elements": [
+      {
+        "id": "login;user-can-login-to-application",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User can login to application",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/steps.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 691000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "open login page",
+            "match": {
+              "location": "features/support/steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1653000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "fill login form",
+            "match": {
+              "location": "features/support/steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 800000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "click on submit button",
+            "match": {
+              "location": "features/support/steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1103000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "expect to see application content",
+            "match": {
+              "location": "features/support/steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 262000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
